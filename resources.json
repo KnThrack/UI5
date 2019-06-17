@@ -1,0 +1,91 @@
+{
+    "resources": [
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/JSONModel.js"
+        },
+        {
+            "name": "controller/Start.controller.js"
+        },
+        {
+            "name": "controller/SearchPlayer.controller.js"
+        },
+        {
+            "name": "controller/PlayerDetail.controller.js"
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest-bundle.zip"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "controller/BaseController-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/JSONModel-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Start-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/SearchPlayer-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/PlayerDetail-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../sap-ui-version.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "view/Start.view.xml"
+        },
+        {
+            "name": "view/SearchPlayer.view.xml"
+        },
+        {
+            "name": "view/PlayerDetail.view.xml"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "css/style.css"
+        }
+    ]
+}

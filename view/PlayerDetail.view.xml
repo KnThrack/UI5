@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+	controllerName="Kn.KnThrack.controller.PlayerDetail" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title" showNavButton="true" navButtonPress=".onNavBack">
+		<content>
+			<List items="{player>/characters/data}">
+				<CustomListItem>
+					<l:Grid defaultSpan="L4 M4 S12" class="sapUiSmallMarginTop">
+						<VBox >
+							<Image size="2rem" src="https://www.bungie.net{player>emblemPath}"/>
+						</VBox>
+						<Image src="https://www.bungie.net{player>emblemBackgroundPath}" />
+					</l:Grid>
+				</CustomListItem>
+			</List>
+		</content>
+	</Page>
+</mvc:View>
