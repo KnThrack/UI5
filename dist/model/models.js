@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/model/json/JSONModel","Kn/KnThrack/model/JSONModel","sap/ui/Device"],function(e,n,i){"use strict";return{createDeviceModel:function(){var n=new e(i);n.setDefaultBindingMode("OneWay");return n},createDestinyModel:function(){var e=new n;e.setDefaultBindingMode("TwoWay");return e}}});

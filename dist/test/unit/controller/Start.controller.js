@@ -1,0 +1,1 @@
+sap.ui.define(["Kn/KnThrack/controller/Start.controller"],function(t){"use strict";QUnit.module("Start Controller");QUnit.test("I should test the Start controller",function(n){var o=new t;o.onInit();n.ok(o)})});
