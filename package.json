@@ -5,9 +5,9 @@
 	"engines": {
 		"node": "8.14.1"
 	},
-	"main": "component.js",
+	"main": "local.js",
 	"scripts": {
-		"start": "node --inspect component.js"
+		"start": "node --inspect local.js"
 	},
 	"dependencies": {
 		"ejs": "^2.5.7",
