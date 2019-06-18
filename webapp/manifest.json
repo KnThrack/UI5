@@ -84,13 +84,6 @@
                     ]
                 },
                 {
-                    "name": "RouteStart",
-                    "pattern": "Display",
-                    "target": [
-                        "TargetStart"
-                    ]
-                },
-                {
                     "name": "PlayerDetail",
                     "pattern": "PlayerDetail/{membershipId}",
                     "titleTarget": "",
